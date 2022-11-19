@@ -1,0 +1,43 @@
+print("WELCOME TO T SCHOOLS")
+print("Brought to you by Vince Tillo Inc")
+print("""Before you can enter the school 
+       you must answer the following questions""")
+a=input("""What shift are you?
+          A.Shift A
+          B.Shift B
+          C.Shift C
+          :""")
+print("""Note that these are the schedules that 
+         you may enter the school with your shift
+         Shift A= Monday to Wednesday
+         Shift B= Thursday to Saturday
+         Shift C= Sunday to Tuesday""")
+b=input("""What day is today?                                                                   
+          A.MONDAY
+          B.TUESDAY
+          C.WEDNESDAY
+          D.THURSDAY
+          E.FRIDAY
+          F.SATURDAY 
+          G.SUNDAY
+          :""")
+c=input("""What are you wearing today?
+            A.School uniform and ID
+            B.Washing Day and ID
+            :""")
+print("""Note this are the days that the uniforms are worn:
+            School uniform  and ID-Worn on MON,TUESDAY and Saturday
+            Washing Day and ID-Worn on Wed and Sunday
+            School Uniform and ID- Worn Again on Thurs and Friday""")
+if a=='A' and b=='A' and c=='A' or a=='A' and b=='B' and c=='A' or a=='A' and b=='C' and c=='B':
+         print("You are wearing the prescribe uniform on your shift")
+         print("You may now enter the school and have a good day ")
+elif  a=='B' and b=='D' and c=='A' or a=='B' and b=='E' and c=='A'or a=='B' and b=='F' and c=='A':
+         print("You are wearing the prescribe uniform on your shift")
+         print("You may now enter the school and have a good day ")
+elif  a=='C' and b=='G' and c=='B' or a=='C' and b=='A' and c=='A' or a=='C' and b=='B' and c=='A':
+         print("You are wearing the prescribe uniform on your shift")
+         print("You may now enter the school and have a good day ")
+else:
+        print("You are not allowed to enter the school")
+        
