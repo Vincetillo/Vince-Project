@@ -1,0 +1,10 @@
+a=int(input("SSS BENEFIT:"))
+b=int(input("PAGIBIG BENEFIT:"))
+c=int(input("PHILHEALTH BENEFIT:"))
+d=550
+print("DAILYRATE:",d)
+e=int(input("WORKING DAYS:"))
+g=d*e
+print("NETPAY:",g)
+f=d*e
+print("GROSPAY:",f)
